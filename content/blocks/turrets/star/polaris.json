@@ -1,0 +1,29 @@
+{
+    "localizedName" : "Polaris",
+    "description" : "Shoots a fast, homing, but low damage, spark of stardust.",
+
+    "size" : 1,
+    "health" : 600,
+
+    "reloadTime" : 18,
+	"range" : 60,
+    "inaccuracy" : 27,
+    "recoilAmount" : 2,
+    "rotateSpeed": 6,
+    "powerUse": 2,
+    "shootCone" : 100,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "spark",
+    "shootShake": 2,
+
+    "requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "lead", "amount": 60 }
+	],
+
+    "category": "turret",
+	"research": "arc"
+}

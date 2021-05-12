@@ -1,0 +1,31 @@
+{
+    "localizedName" : "Gale",
+    "description" : "Shoots tines that try to bounce to other enemies when it hits something",
+
+    "size" : 3,
+    "health" : 3000,
+
+    "shots" : 3,
+    "burstSpacing": 5,
+    "reloadTime" : 30,
+	"range" : 160,
+    "inaccuracy" : 2,
+    "recoilAmount" : 1,
+    "rotateSpeed": 16,
+    "shootCone" : 40,
+
+    "targetAir" : true, 
+	"targetGround" : false, 
+
+    "shootSound" : "shootSnap",
+    "shootLength": 0,
+    "shootShake": 2,
+
+    "requirements": [
+		{ "item": "graphite", "amount": 80},
+		{ "item": "thorium", "amount": 100}
+	],
+
+    "category": "turret",
+	"research": "scatter"
+}

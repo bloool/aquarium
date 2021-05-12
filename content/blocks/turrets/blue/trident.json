@@ -1,0 +1,29 @@
+{
+    "localizedName" : "Trident",
+    "description" : "Impales enemies with energy tridents.",
+
+    "size" : 3,
+    "health" : 1200,
+
+    "reloadTime" : 40,
+	"range" : 150,
+    "inaccuracy" : 5,
+    "recoilAmount" : 6,
+    "rotateSpeed": 7,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "shotgun",
+    "shootShake": 4,
+    "shootEffect" : "shootLiquid",
+
+    "requirements": [
+		{ "item": "silicon", "amount": 80 },
+        { "item": "graphite", "amount": 200 },
+		{ "item": "thorium", "amount": 60 }
+	],
+
+    "category": "turret",
+	"research": "cyclone"
+}

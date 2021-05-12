@@ -1,0 +1,36 @@
+{
+	"name": "Antares",
+	"description": "Shoots a big laser at targets with a lot of smaller lasers inbetween.",
+	"size": 4,
+	"health": 2050,
+	"reloadTime" : 220,
+	"range": 200,
+	"shootSound": "plasmaboom",
+	"shootDuration" : 40,
+	"shootShake": 6,
+	"shots": 1,
+	"velocityInaccuracy": 0.1,
+	"recoilAmount" : 4,
+	"shootLength": 0,
+	"powerUse": 24,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootType": {
+		"type": "ContinuousLaserBulletType",
+		"damage": 120,
+		"length": 200,
+		"width": 8,
+		"lifetime": 40,
+		"drawSize": 100,
+		"lightColor": "ffffff",
+		"hitColor":"ffffff",
+		"colors": ["ffe18f", "de9458", "ffffff"]
+	},
+	"category": "turret",
+	"research": "polaris",
+	"requirements": [ 
+		{ "item": "titanium", "amount": 800 },
+		{ "item": "phase-fabric", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 120 }
+	]
+}

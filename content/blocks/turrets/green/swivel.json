@@ -1,0 +1,42 @@
+{
+    "localizedName" : "Swivel",
+    "description" : "Shoots a incredibly slow homing projectile that deals tons of splash damage.",
+
+    "size" : 4,
+    "health" : 16000,
+
+    "reloadTime" : 120,
+	"range" : 150,
+    "inaccuracy" : 10,
+    "recoilAmount" : 9,
+    "rotateSpeed": 3,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "laser",
+    "shootShake": 4,
+	"shootLength": 0,
+	"shootCone" : 100,
+
+    "chargeTime": 40,
+	"chargeBeginEffect": {
+			"type": "WaveEffect",
+			"lifetime": 60,
+			"sizeFrom": 40,
+			"sizeTo": 0,
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "98ffa9",
+			"colorTo": "FFFFFF"
+	},
+
+    "requirements": [
+		{ "item": "silicon", "amount": 800 },
+        { "item": "plastanium", "amount": 120 },
+		{ "item": "surge-alloy", "amount": 80 }
+	],
+
+    "category": "turret",
+	"research": "revolve"
+}

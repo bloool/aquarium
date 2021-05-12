@@ -1,0 +1,33 @@
+{
+    "localizedName" : "Sternflak",
+    "description" : "Shoots fireballs that backfire into 3 other fireballs.",
+
+    "size" : 4,
+    "health" : 3200,
+
+    "reloadTime" : 15,
+	"range" : 150,
+    "inaccuracy" : 10,
+    "recoilAmount" : 4,
+    "rotateSpeed": 6,
+
+    "shots" : 2,
+    "spread" : 20,
+    "alternate" : true,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "flame",
+    "shootShake": 1,
+    "shootEffect" : "shootPyraFlame",
+
+    "requirements": [
+		{ "item": "silicon", "amount": 80 },
+        { "item": "plastanium", "amount": 120 },
+		{ "item": "surge-alloy", "amount": 800 }
+	],
+
+    "category": "turret",
+	"research": "cyclone"
+}

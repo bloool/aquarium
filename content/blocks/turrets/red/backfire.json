@@ -1,0 +1,33 @@
+{
+    "localizedName" : "Backfire",
+    "description" : "Shoots fireballs that backfire into the turret when destroyed.",
+
+    "size" : 3,
+    "health" : 1200,
+
+    "reloadTime" : 10,
+	"range" : 110,
+    "inaccuracy" : 5,
+    "recoilAmount" : 3,
+    "rotateSpeed": 7,
+
+    "shots" : 2,
+    "spread" : 8,
+    "alternate" : true,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "flame",
+    "shootShake": 1,
+    "shootEffect" : "shootPyraFlame",
+
+    "requirements": [
+		{ "item": "silicon", "amount":  80},
+		{ "item": "thorium", "amount":  200},
+		{ "item": "graphite", "amount": 80}
+	],
+
+    "category": "turret",
+	"research": "cyclone"
+}

@@ -1,0 +1,31 @@
+{
+    "localizedName" : "Rigel",
+    "description" : "Bombards enemies with miniature super novas.",
+
+    "size" : 3,
+    "health" : 600,
+
+    "reloadTime" : 10,
+	"range" : 120,
+    "inaccuracy" : 40,
+    "xRand" : 8,
+    "recoilAmount" : 2,
+    "rotateSpeed": 6,
+    "powerUse": 8,
+    "shootCone" : 180,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "laser",
+    "shootShake": 2,
+
+    "requirements": [
+		{ "item": "silicon", "amount": 120},
+		{ "item": "thorium", "amount": 60},
+		{ "item": "titanium", "amount": 120}
+	],
+
+    "category": "turret",
+	"research": "polaris"
+}

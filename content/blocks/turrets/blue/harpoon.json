@@ -1,0 +1,30 @@
+{
+    "localizedName" : "Harpoon",
+    "description" : "Impales enemies with energy tridents.",
+
+    "size" : 4,
+    "health" : 1200,
+
+    "reloadTime" : 12,
+	"range" : 150,
+    "inaccuracy" : 8,
+    "recoilAmount" : 6,
+    "rotateSpeed": 7,
+    "shootCone" : 60,
+
+    "targetAir" : true, 
+	"targetGround" : true, 
+
+    "shootSound" : "shotgun",
+    "shootShake": 4,
+    "shootEffect" : "shootLiquid",
+
+    "requirements": [
+		{ "item": "silicon", "amount": 120 },
+        { "item": "plastanium", "amount": 800 },
+		{ "item": "surge-alloy", "amount": 80 }
+	],
+
+    "category": "turret",
+	"research": "cyclone"
+}
