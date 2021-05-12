@@ -22,3 +22,4 @@ Gale - a Scatter upgrade that focuses more on single target damage over group da
 
 - Polish a bit of the effects and overall game-feel
 - More flak weaponry (like Gale and Scatter)
+- Better icon and a banner
