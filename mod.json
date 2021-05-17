@@ -2,7 +2,7 @@
   "name": "aquarium",
   "displayName": "Aquarium",
   "author": "blool",
-  "description": "h",
-  "minGameVersion": "126.3",
+  "description": "Small mod that currently only adds turrets focused on scripting.",
+  "minGameVersion": "126.2",
   "version": "0.01"
 }
